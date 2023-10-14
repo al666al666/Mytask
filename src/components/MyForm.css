@@ -1,0 +1,116 @@
+* {
+    margin : 0; 
+    padding : 0; 
+    box-sizing: border-box;
+}
+
+
+.content {
+    position:relative; 
+    width: 100% ;
+    height:100vh ; 
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-flow: column;
+    
+}
+
+.content-head { 
+    color: #224957;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+.content-title {
+    color: #224957;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 39px ;
+    margin-bottom: 36px;
+}
+
+.content-form .content-form_input { 
+   display:flex; 
+   flex-direction: column; 
+   gap :  32px ;  
+}
+.content-form input[type="text"] {
+    background-color: #224957;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+  
+}
+::placeholder{
+    color: #FFF;
+    text-align: left;
+    font-family: Lexend Deca;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top:12px; 
+    padding-bottom: 13px ; 
+}
+
+.content-form .content-rememberme { 
+    display:flex; 
+    justify-content: space-between;
+    margin-top: 23px ; 
+    margin-bottom: 24px ;
+}
+.content-forgotpassword ,.content-rememberme label {
+    color: #093545;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.form-loginbutton {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    background: #20DF7F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+    color: #224957;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    text-transform: capitalize;
+}
+
+input[type="text"] {
+    color:#FFF; 
+    padding-left: 18px;
+}
+input[type="checkbox"] {
+    accent-color: #093545;
+}
+
+.content-iconbackground {
+    position:absolute;
+    width:70px; 
+    height: 70px;
+    z-index: 3;
+    left:20px ;
+    bottom:18px;
+}
+
+.content-wave1 ,.content-wave2 {
+    position:absolute;
+    bottom:0 ;
+}
+
